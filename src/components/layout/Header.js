@@ -6,7 +6,7 @@ function Header() {
   // const navigation =useNavigation
   return (
     <div className='w-screen flex  flex-row justify-between h-[100px] bg-transparent  items-center pl-14'>
-        <img src={Logo} className='h-[63px] '/> 
+        <img src={Logo} alt='logo' className='h-[63px] '/> 
         <div className='uppercase text-white flex flex-row justify-center w-1/2 font-nunito text-[13px] font-semibold gap-10 '>
             <p>Loan programs</p>
             <p>Realter portal</p>

@@ -16,7 +16,7 @@ const Cards = (props) => {
         {CardData.map((data, index) => {
           return (
             <div key={index} className="relative shadow-md">
-              <img src={data.img} className=" h-[480px] w-full " />
+              <img src={data.img} alt="img" className=" h-[480px] w-full " />
               <div className="absolute text-white  -mt-28  flex flex-row justify-between items-center  pl-10 w-full ">
                 <div className="w-2/3">
                   <p className="text-[30px] font-bodyText">{data.heading}</p>
