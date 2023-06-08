@@ -4,9 +4,10 @@ import Cards from '../components/general/Cards'
 
 const Products = () => {
   return (
-    <div className=''>
-<TopContent height={"96"}/>
-<Cards/>
+    <div className="-mt-[100px]">
+{/* <TopContent height={`[500px]`}/> */}
+<TopContent height={`[500px]`} mainHeading={"product"} bottomHeading={"programs"} />
+<Cards heading={"products"}/>
     </div>
   )
 }

@@ -8,9 +8,9 @@ const Home = () => {
   const navigate = useNavigate();
 
   return (
-    <div>
-   <TopContent height={"screen"}/>
-   <Cards/>
+    <div className="-mt-[100px]">
+   <TopContent height={"screen"} topHeading={"the"} mainHeading={"EDUCATED APPROACH"} bottomHeading={"TO MODERN MORTGAGE LENDING"} />
+   <Cards heading={"how it works"}/>
    <ContactUs/>
     </div>
   );
